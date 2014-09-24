@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl"  href="planes.xsl"?>
+<Planes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="planes.xsd">
+    <Plane 	model = "mig 29" origin = "russia" price = "2000000" >
+        <Chars>
+            <type>fighter</type>
+            <seats>1</seats>
+            <ammo>true</ammo>
+            <rocket>6</rocket>
+            <radar>true</radar>
+	</Chars>
+        <Parameters>
+            <Length>17.32</Length>
+            <Width>11.36</Width>
+            <Height>4.73</Height>
+	</Parameters>
+    </Plane>   
+    <Plane 	model = "su 34" origin = "russia" price = "2000000" >
+        <Chars>
+            <type>bomber</type>
+            <seats>2</seats>
+            <ammo>true</ammo>
+            <rocket>8</rocket>
+            <radar>true</radar>
+	</Chars>
+        <Parameters>
+            <Length>23.3</Length>
+            <Width>14.7</Width>
+            <Height>6.09 </Height>
+		</Parameters>
+    </Plane>  
+        <Plane 	model = "f 16" origin = "usa" price = "3000000" >
+        <Chars>
+            <type>fighter</type>
+            <seats>1</seats>
+            <ammo>true</ammo>
+            <rocket>8</rocket>
+            <radar>true</radar>
+		</Chars>
+        <Parameters>
+            <Length>14.52</Length>
+            <Width>9.45</Width>
+            <Height>5.01</Height>
+		</Parameters>
+    </Plane>  
+</Planes>
