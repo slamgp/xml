@@ -11,6 +11,7 @@ import org.xml.sax.SAXException;
 
 import xml.controller.MyDomParser;
 import xml.controller.MySaxHendler;
+import xml.controller.MyStaxParset;
 import xml.model.Plane;
 
 public class Main {
@@ -38,7 +39,13 @@ public class Main {
 		{
 			System.out.println(p);
 		}
-		
+		MyStaxParset myStx = new MyStaxParset(".\\xml project\\planes.xml");
+		myStx.startParsing();
+		ArrayList<Plane> plStax = myStx.getAllPlanes();
+		for(Plane p: plStax)
+		{
+			System.out.println(p);
+		}
 	}
 
 }
